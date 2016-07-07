@@ -1,10 +1,10 @@
 spring:
   datasource:
     name: omsext
-    username: oms
-    password: oms123
+    username: root
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.19.74:3306/test
+    url: jdbc:mysql://192.168.99.100:3306/test
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackages: com.hello.world.mapper
